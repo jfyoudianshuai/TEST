@@ -5,41 +5,6 @@ import java.util.*;
 public class Test {
 
 
-    /**
-     *
-     输入：nums = [0,1,2,4,5,7]
-     输出：["0->2","4->5","7"]
-     解释：区间范围是：
-     [0,2] --> "0->2"
-     [4,5] --> "4->5"
-     [7,7] --> "7"
-     * @param nums
-     * @return
-     */
-    public List<String> summaryRanges(int[] nums) {
-        List<String> list=new ArrayList<>();
-
-        return list;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list=new ArrayList<>();
         addList(root,list);
