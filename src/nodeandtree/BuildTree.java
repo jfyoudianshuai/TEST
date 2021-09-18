@@ -1,3 +1,5 @@
+package nodeandtree;
+
 public class BuildTree {
     public static TreeNode build(Integer[] arr){
         if(arr==null) return null;

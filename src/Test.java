@@ -1,5 +1,5 @@
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import nodeandtree.TreeNode;
+
 import java.util.*;
 
 public class Test {
@@ -179,9 +179,9 @@ public class Test {
 //    queue.add(2);
 //        System.out.println(queue.peek());
 
-//    TreeNode root=new TreeNode(1);
-//    root.right=new TreeNode(2);
-//    root.right.left=new TreeNode(3);
+//    nodeandtree.TreeNode root=new nodeandtree.TreeNode(1);
+//    root.right=new nodeandtree.TreeNode(2);
+//    root.right.left=new nodeandtree.TreeNode(3);
 //        System.out.println(inorderTraversal(root));
                 Integer [] arr=new Integer[]{6,2,6,5,1,2};
                 int [] arr2=new int[]{1,2,3,2,3};
@@ -193,7 +193,7 @@ public class Test {
 //        System.out.println(isIsomorphic("efg","add"));
 //        int a="AS".charAt(0);
 //        Integer [] arr=new Integer[]{1,2,3,4,5,6};
-////        TreeNode root=BuildTree.build(arr);
+////        nodeandtree.TreeNode root=BuildTree.build(arr);
 //        ListNode node=new ListNode(arr[0]);
 //        ListNode head=node;
 //        for(int i=1;i<arr.length;i++){
