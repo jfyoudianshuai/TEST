@@ -173,6 +173,11 @@ public class Test {
             return "";
         }
 
+    /**
+     * list-->array  list.stream().mapToInt(Integer::valueOf).toArray();
+     * int[]--> list    Arrays.stream(nums).boxed().collect(Collectors.toList());
+     * @param args
+     */
     public static void main(String[] args) {
 //    Queue<Integer> queue=new LinkedList<>();
 //    queue.offer(1);
